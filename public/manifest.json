@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Improve Your Vocab",
+  "author": "Sanketh kumar",
+  "version": "1.0.1",
+  "description": "Replace new tab screen with English word everytime you visit chrome",
+  "icons": {
+    "16": "sanketh.ico",
+    "48": "sanketh48.ico",
+    "128": "sanketh128.ico"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
